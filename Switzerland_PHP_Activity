@@ -1,5 +1,5 @@
 --- THIS IS MY SCHEMA
-CREATE TABLE swiss_grocery_items (
+CREATE TABLE switzerland_grocery_table (
   item_id INT PRIMARY KEY,
   product_name VARCHAR(100) NOT NULL,
   brand_name VARCHAR(50) NOT NULL,
@@ -9,7 +9,7 @@ CREATE TABLE swiss_grocery_items (
 );
 
 --- THIS IS MY DATABASE
-  INSERT INTO swiss_grocery_items
+  INSERT INTO switzerland_grocery_table
 (item_id, product_name, brand_name, category, unit_size, price_chf)
 VALUES
 (1001,'Birchermuesli Original','Bio Familia','Breakfast Cereal','500g',5.95),
